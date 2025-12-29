@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+conda/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data and Models (Too large for GitHub)
+output/
+data/
+dataset/
+fewshot_absa/
+pdf/
+md/
+*.safetensors
+*.bin
+*.pth
+
+# OS
+.DS_Store
