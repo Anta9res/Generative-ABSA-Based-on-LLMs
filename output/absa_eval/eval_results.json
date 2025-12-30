@@ -1,0 +1,3485 @@
+{
+  "metrics": {
+    "aspect_f1": 0.641025641025641,
+    "aspect_precision": 0.6289308176100629,
+    "aspect_recall": 0.6535947712418301,
+    "sentiment_accuracy": 0.845,
+    "joint_f1": 0,
+    "joint_precision": 0.0,
+    "joint_recall": 0.0
+  },
+  "details": [
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Negative; Aspect: Adoption, Sentiment: Negative; Aspect: Adoption, Sentiment: Negative; Aspect: Adoption, Sentiment: Negative; Aspect: Technology, Sentiment: Negative; Aspect: Technology, Sentiment: Negative",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Technology, Sentiment: Negative; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Negative"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Negative; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Price, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Mining, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Negative; Aspect: Regulation, Sentiment: Negative; Aspect: Technology, Sentiment: Negative",
+      "prediction": "the\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Regulation",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "#1: presale #1 closed completed#2: presale #2 filled pcs launch august 15th#3: audit progress#4: launch august 15th#5: presale #2 filled pcs launch august 15th#6: audit progress#7: launch august 15th#8: presale #2 filled pcs launch august 15th#9: audit progress#10: launch august 15th#11: presale #2 filled pcs launch august 15th#12: audit progress#13: launch august 15",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "<|startofreasoning|>Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive<|endofreasoning|>\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive<|endofreasoning|>"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "'Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive'\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive'"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": "####",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Regulation, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Positive; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral",
+      "prediction": "AnalyzeAspect: Adoption, Sentiment: Neutral; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Neutral"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Negative; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "5% liquidity locked 15% bnb rewards 1.5% max wallet. aspect: price, sentiment: positive; aspect: technology, sentiment: neutral; aspect: adoption, sentiment: positive; aspect: mining, sentiment: neutral; aspect: regulation, sentiment: neutral.\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "price",
+          "positive"
+        ],
+        [
+          "technology",
+          "neutral"
+        ],
+        [
+          "adoption",
+          "positive"
+        ],
+        [
+          "mining",
+          "neutral"
+        ],
+        [
+          "regulation",
+          "neutral."
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "#1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Marketing, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "#tokenomics#name: bigdaddycake#symbol: $daddycake#network: bep-20#concept: bigdaddycake auto cake#total supply: 1 000 000 000 tokens#tokenomics: #8% cake reflection #8% selling fee #telegram: #progress: #ownership renounced #contract: #website: #dapp: #marketing: #audited: #poocoin: #community: #chinese: #english: #spanish: #french: #german: #italian:",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Marketing",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybrnator#cybr",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": "Aspect: Adoption, Sentiment: Negative; Aspect: Mining, Sentiment: Negative; Aspect: Price, Sentiment: Negative; Aspect: Technology, Sentiment: Negative; Aspect: Regulation, Sentiment: Negative\n\n",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Mining",
+          "Negative"
+        ],
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Negative"
+        ],
+        [
+          "Regulation",
+          "Negative"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "'s **gamesafe** ?**gamesafe** token marketcap 1.9 millions currently, reached ath 12.5 millions. taking look website understand good project 're planning releasing gaming marketplace month everyone able buy games , gift card even gaming stuffs like keyboards mouses \"**gamesafe tokens**\" bnb.***so what's utility mixing bsc gaming marketplace?***hodlers rewarded 5% tax transaction, hodling win free tokens!just **coinmarketcap**, **coingecko** !they also doxxed ama.**what's next?**so token mix gaming + crypto, small",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "'s' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's' 's",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": "<\n\n",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "the\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "\ud83d\ude80\u2705everusd -\ud83d\ude80\u2705****liquidity locked 2022 ****\ud83e\udd5e everusd swap: -coming soon-****\u2714\ufe0fbuy back feature active****\u2714\ufe0fdoing ama voicechat everyday****\ud83d\udcb2everusd newest bsc gem market! \ud83d\udcb2everusd community driven project disruptive approach bsc ecosystem bringing investors huge return investment with\ud83d\udcb0****\ud83d\udcaf slippage: 11-14%****tokenomics \u25ba name: ever usd \u25ba symbol: $everusd \u25ba total supply: 1,000,000,000,000,00",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": "###",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Negative; Aspect: Technology, Sentiment: Negative",
+      "prediction": "Aspect: Adoption, Sentiment: Negative; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Neutral; Aspect: Mining, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "&amp;#x200b;#nyx&amp;#x200b;#nyx&amp;#x200b;#nyx&amp;#x200b;#nyx&amp;#x200b;#nyx&amp;#x200b;#nyx&amp;#x200b;#nyx&amp;#x200b;#nyx&amp;#x200b;#nyx&amp;#x200b;#nyx&amp;#x200b",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Neutral"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": "'\n\n",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Community, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Community",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Neutral; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral.\n\n",
+      "parsed_gold": [
+        [
+          "Price",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Neutral"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral."
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "\n\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Neutral; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "bkd holders rewarded $cake every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every transaction. $cake rewards holders 45% every",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Neutral"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative; Aspect: Price, Sentiment: Negative; Aspect: Price, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Price",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": " | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Technology, Sentiment: Neutral",
+      "prediction": "-&amp;#x200b;aspect: price, sentiment: neutral; aspect: technology, sentiment: neutral; aspect: adoption, sentiment: neutral; aspect: mining, sentiment: neutral; aspect: regulation, sentiment: neutral\n\n",
+      "parsed_gold": [
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "price",
+          "neutral"
+        ],
+        [
+          "technology",
+          "neutral"
+        ],
+        [
+          "adoption",
+          "neutral"
+        ],
+        [
+          "mining",
+          "neutral"
+        ],
+        [
+          "regulation",
+          "neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "<|endoftext|>Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Community, Sentiment: Positive; Aspect: Rewards, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Community",
+          "Positive"
+        ],
+        [
+          "Rewards",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "WriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWriteWrite",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Marketing, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Marketing",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "<|startofresponse|>Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive<|endofresponse|>\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive<|endofresponse|>"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Negative; Aspect: Regulation, Sentiment: Negative; Aspect: Regulation, Sentiment: Negative",
+      "prediction": "'s biggest threat? it's belief it's state-controlled stable coins. can't beat em, join , far they've failed quell , opt launch state-controlled virtual currencies. instance, china yuan. would centralized control explicit backing support , even done unilaterally enough countries substantial effort, necessarily extinguish current spate cryptocurrencies, could potentially cripple market value. though, even state-controlled stablecoins, one main area existing virtual currencies could still add value continued , store value unit account, it'll need address security concerns, clean environmental act, well somehow mollify government , impossible.\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Regulation",
+          "Negative"
+        ],
+        [
+          "Regulation",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": "'s first deposit $400 \u2019t automatically carry it\u2019s worth \u2019ll asked verify identity\u2026you need make $400 supported , lose free $1240 enter following promo codes. click profile button &gt; promo codes.\u2022enter stable10 $10 bitcoin. deposit least $50 usdt usdc.\u2022enter stable50 $50 bitcoin. deposit least $200 usdt usdc. deposit least $250 activate codes time.\u2022probably applicable enter stable600 $600 bitcoin. deposit least $25,000 usdt usdc.\u2022enter",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Negative; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Negative; Aspect: Regulation, Sentiment: Negative; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Price, Sentiment: Negative; Aspect: Regulation, Sentiment: Negative; Aspect: Technology, Sentiment: Positive; Aspect: Adoption, Sentiment: Negative; Aspect: Mining, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Regulation",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Regulation",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Negative"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Regulation, Sentiment: Positive; Aspect: Regulation, Sentiment: Positive; Aspect: Regulation, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Regulation",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive",
+      "prediction": "'s vaults. vaults tied directly account. proceed upgrade phone, little know would need password set old phone re-activate vault. could recall password. created new vault, received distributions today upgraded phone again. found old vault password ta-da. happiness arose. way transfer moons one vault another? going send function says send user, eth wallet. ideally i'd prefer pull moons eth wallet actively one. ways combine moons?\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Mining, Sentiment: Neutral",
+      "prediction": " cryptocurrency. website, telegram, discord, youtube, facebook, instagram, twitter, reddit, telegram, discord, youtube, facebook, instagram, twitter, reddit, telegram, discord, youtube, facebook, instagram, twitter, reddit, telegram, discord, youtube, facebook, instagram, twitter, reddit, telegram, discord, youtube, facebook, instagram, twitter, reddit, telegram, discord, youtube, facebook, instagram, twitter, reddit, telegram, discord, youtube, facebook, instagram, twitter, reddit, telegram, discord, youtube, facebook, instagram, twitter, reddit, telegram, discord, youtube, facebook, instagram, twitter,",
+      "parsed_gold": [
+        [
+          "Mining",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "<|startofreasoning|>To extract financial aspects and sentiments from the given cryptocurrency text, I'll first identify the key aspects mentioned: Price, Regulation, Technology, Adoption, Mining. Then, I'll determine the sentiment associated with each aspect based on the text.\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "<|endoftext|>\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Humanity. \ud83c\udf81\ud83c\udf81\ud83c\udf81special offer\ud83c\udf81\ud83c\udf81 \ud83d\udd0awhat hup?\u221a $hup building , socially conscious nft marketplace artists collectors authenticate art, find copycats online, buy, sell, license copyright copyright-enabled nfts \u2122, complying international copyright securities law. helping save capybaras time.\u2714 $hup solves nft permanence problem hosts metadata multimedia files decentralized, resilient file hosting protocol - partnerships etho protocol flux.\u2714 $ hup lets make nfts work you. copyright owners earn $hup licensing art to: art galleries, live broadcasts, metaverse parties, advertisers, more.",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "analyze cryptocurrency text extract financial aspects (price, regulation, technology, adoption, mining) sentiments. output format: 'aspect: [aspect], sentiment: [sentiment]'.\n\n",
+      "parsed_gold": [
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "[aspect]",
+          "[sentiment]'."
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Negative; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect:",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral",
+      "prediction": "<|startoftext|>Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral<|endoftext|>\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral<|endoftext|>"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Negative; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "analyze cryptocurrency text extract financial aspects (price, regulation, technology, adoption, mining) sentiments. output format: 'aspect: [aspect], sentiment: [sentiment]'.\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "[aspect]",
+          "[sentiment]'."
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "TheAspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Positive; Aspect: Price, Sentiment: Negative",
+      "prediction": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Positive; Aspect: Security, Sentiment: Positive",
+      "prediction": " ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '",
+      "parsed_gold": [
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Security",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative",
+      "prediction": "\n###",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x200b;#x",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Neutral",
+      "prediction": "'Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral'\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral'"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral",
+      "prediction": "do. cardano neither underhyped, overhyped. it\u2019s right be. saw two posts trending - one arguing cardano overhyped, arguing cardano overhyped. also, saw comment one posts need third post - , i\u2019m deliver. nice run-up cardano sits 56,78 b market cap. it\u2019s promising project plenty potential real world uses, also plenty risks. potential future growth priced in. potential downside also priced in. precisely 1.767 usd priced/balanced perfection .?\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014obviously, satire. don\u2019t take brain-fart seriously. hope",
+      "parsed_gold": [
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "bcb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Technology, Sentiment: Neutral",
+      "prediction": "-&amp;#x200b;**contract verified**&amp;#x200b;**contract address** : 0x861954f73167e7a8dc37c3d66f69663bb17811a2&amp;#x200b;**pancakeswap** : &amp;#x200b;**contract** : &amp;#x200b;**contract** : &amp;#x200b;**contract** :",
+      "parsed_gold": [
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Price, Sentiment: Negative; Aspect: Technology, Sentiment: Positive",
+      "prediction": "###",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "\ud83d\ude80fair launch \ud83d\udc8eaxsjunior \ud83d\udcb0reward $axs 10% every 45 minutes \ud83d\udee1no rugpulls , dumps \ud83d\udd10 1 year locked liquidity . \u26a1\ufe0feasy x100\u26a1\ufe0f. \ud83d\udca5what axsjunior ? \ud83d\udd25&amp;#x200b;\u2705 10% auto-axs reflections \u2705 anti-dump + anti-whale system\u2705 endless marketing budget \u2705 teams transparency &amp;#x200b;\ud83d\ude80 100x potential \ud83d\ude80&amp;#x20",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Human: Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Neutral; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Positive\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Neutral"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ]
+    },
+    {
+      "ground_truth": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Technology, Sentiment: Positive",
+      "prediction": "\n\n\n",
+      "parsed_gold": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Technology",
+          "Positive"
+        ]
+      ],
+      "parsed_pred": []
+    },
+    {
+      "ground_truth": "Aspect: Price, Sentiment: Negative; Aspect: Price, Sentiment: Negative; Aspect: Price, Sentiment: Negative",
+      "prediction": "Aspect: Adoption, Sentiment: Positive; Aspect: Mining, Sentiment: Neutral; Aspect: Price, Sentiment: Positive; Aspect: Regulation, Sentiment: Neutral; Aspect: Technology, Sentiment: Neutral\n\n",
+      "parsed_gold": [
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Price",
+          "Negative"
+        ],
+        [
+          "Price",
+          "Negative"
+        ]
+      ],
+      "parsed_pred": [
+        [
+          "Adoption",
+          "Positive"
+        ],
+        [
+          "Mining",
+          "Neutral"
+        ],
+        [
+          "Price",
+          "Positive"
+        ],
+        [
+          "Regulation",
+          "Neutral"
+        ],
+        [
+          "Technology",
+          "Neutral"
+        ]
+      ]
+    }
+  ]
+}
